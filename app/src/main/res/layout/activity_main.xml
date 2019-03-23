@@ -7,8 +7,11 @@
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:gravity="center">
-
+    <!--
+    Este es un comentario.
+    -->
     <TextView
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -19,11 +22,17 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Hola mundo"
         android:textSize="45sp"
         android:textColor="#009900"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambios"/>
 
 </LinearLayout>
